@@ -1,0 +1,55 @@
+body {
+    background-image: url("img/background_image.jpg");
+    background-repeat: repeat-y;
+    height: 100%;
+    
+}
+
+header {
+    background-color: rgba(255,255,255,0.8);
+}
+
+body {
+    background-color: white;
+}
+
+footer {
+    color: white;
+}
+
+.btn {
+    background-color: black;
+    border: 2px solid greenyellow;
+    color: white;
+    width: 100%;
+}
+
+.btn:hover {
+    background-color: dimgrey;
+}
+
+.btn-other {
+    border: none;
+    width: auto;
+}
+
+.btn-other:hover {
+    border: none;
+}
+
+h1 {
+    font-size: 4em;
+    color: black;
+}
+
+hr {
+    border: 1px dashed black;
+}
+
+.double-line {
+    border-style: solid;
+}
+
+img {
+    width: 20%;
+}
