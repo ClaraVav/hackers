@@ -43,3 +43,54 @@ var noviny = [
         'text':'Výzkumníci spojili útoky “Sharpshooter” s hackery napojené na vládu KLDR a to díky důkazům nalezeným na zkonfiskovaném serveru, který byl pro to použit. Tzv. “Operace Sharpshooter” byla kybernetická špionáž míříci na vládní, obranné, nukleární, energetické a finanční organizace po celém světě a byla odhalena v prosinci minulého roku pracovníky firmy McAfee. Útoky byly prováděny posíláním podivných dokumentů se zakódovaným virem skrze Dropbox. Virus pak stáhl malware zvaný “The Rising Sun” a ten sesbíral informace ze sítě.'
     }
 ];
+
+var mb = [
+    {
+        'nazev':'Slot na procesor',
+        'ucel':'Zde se umisťuje procesor.'
+    },
+    {
+        'nazev':'Záložní baterie CMOS',
+        'ucel':'Baterie napájející čip CMOS, který obsahuje BIOS a další věci nutné k nastartování PC.'
+    },
+    {
+        'nazev':'Severní můstek s chladičem',
+        'ucel':'Severní můstek zajišťuje komunikaci mezi procesorem a RAMkou a také Jižním můstkem.'
+    },
+    {
+        'nazev':'Sloty na paměť',
+        'ucel':'Sloty na paměti RAM.'
+    },
+    {
+        'nazev':'Jižní můstek',
+        'ucel':'Kounikace s procesorem za pomalejší rychlosti.'
+    },
+    {
+        'nazev':'SATA konektory',
+        'ucel':'Pro připojení hard disku.'
+    },
+    {
+        'nazev':'COM port',
+        'ucel':'Port pro připojení příslušenství za pomocí COM.'
+    },
+    {
+        'nazev':'VGA konektory',
+        'ucel':'Pro připojení monitoru.'
+    },
+    {
+        'nazev':'Kondenzátor',
+        'ucel':'Kondenzátory filtrují elektrický proud.'
+    },
+    {
+        'nazev':'Porty LAN a USB',
+        'ucel':'Pro připojení Ethernetu a USB.'
+    },
+    {
+        'nazev':'Sloty PCI',
+        'ucel':'Sloty pro další příslušenství využívající PCI.'
+    },
+    {
+        'nazev':'Konektor na napájení',
+        'ucel':'Zde se zapojuje napájení desky.'
+    }
+]
