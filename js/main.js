@@ -36,61 +36,46 @@ $(function () {
         zmena(a);
     });
 
-    var cpu = document.getElementById('path4530').id;
-    var cmos = document.getElementById('path4532').id;
-    var northb = document.getElementById('path4534').id;
-    var mem = document.getElementById('path4536').id;
-    var southb = document.getElementById('path4538').id;
-    var sata = document.getElementById('path4540').id;
-    var com = document.getElementById('path4542').id;
-    var vga = document.getElementById('path4544').id;
-    var condens = document.getElementById('path4546').id;
-    var lanusb = document.getElementById('path4548').id;
-    var pci = document.getElementById('path4550').id;
-    var power = document.getElementById('path4552').id;
-
-    $('#tekst div path').on('click', function(){
-        $('path').attr("fill","rgba(255,0,0,0.2)");
-        $(this).attr("fill","rgba(255,0,0,1)");
-        switch (i) {
-            case $(this).id == cpu:
+    $('#tekst div div path').on('click', function(){
+        var i;
+        switch ($(this).attr('id')) {
+            case "path4530":
                 i = 0;
-            case $(this).id == cmos:
+                break;
+            case "path4532":
                 i = 1;
-            case $(this).id == northb:
+                break;
+            case "path4534":
                 i = 2;
-            case $(this).id == mem:
+                break;
+            case "path4536":
                 i = 3;
-            case $(this).id == southb:
+                break;
+            case "path4538":
                 i = 4;
-            case $(this).id == sata:
+                break;
+            case "path4540":
                 i = 5;
-            case $(this).id == com:
+                break;
+            case "path4542":
                 i = 6;
-            case $(this).id == vga:
+                break;
+            case "path4544":
                 i = 7;
-            case $(this).id == condens:
+                break;
+            case "path4546":
                 i = 8;
-            case $(this).id == lanusb:
+                break;
+            case "path4548":
                 i = 9;
-            case $(this).id == pci:
+                break;
+            case "path4550":
                 i = 10;
-            case $(this).id == power:
+                break;
+            default:
                 i = 11;
         }
         $('.headingthing').text(mb[i].nazev);
         $('.smallthings').text(mb[i].ucel);
-    });
-
-    $("#tekst div path").on("mouseenter", function() {   
-        $("path")
-          .attr("fill", "#ccc")
-          .attr("stroke", "white")
-          .attr("stroke-width", "0.5");    
-        $(this)
-          .attr("fill", "yellow")
-          .attr("stroke", "red")
-          .attr("stroke-width", "3");
-        $(this).parent().append($(this));
     });
 });

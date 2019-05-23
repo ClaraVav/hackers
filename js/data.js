@@ -93,4 +93,4 @@ var mb = [
         'nazev':'Konektor na napájení',
         'ucel':'Zde se zapojuje napájení desky.'
     }
-]
+];
