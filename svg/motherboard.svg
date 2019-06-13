@@ -56,11 +56,11 @@
      height="746"
      preserveAspectRatio="none"
      style="image-rendering:optimizeQuality"
-     xlink:href="file:\\C:\Users\Klára\Desktop\School\pvy\hackers-master\img\motherboard.jpg"
+     xlink:href="../img/motherboard.jpg"
      id="image3721"
      x="0"
      y="0"
-     sodipodi:absref="C:\Users\Klara\Desktop\everything\Škola\SSPU\PVY\motherboard.jpg" />
+     sodipodi:absref="../img/motherboard.jpg" />
   <path
      style="fill:#ff0000;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.04140127;fill-opacity:0.28025478"
      d="m 471.85159,273.26973 -14.93757,9.66549 1.75736,6.15076 -80.83864,79.08128 2.63605,14.93757 10.54417,7.90813 1.75736,15.81625 27.2391,19.33098 43.05536,1.75736 87.86808,-82.596 3.51473,-11.42285 v -12.30153 z"

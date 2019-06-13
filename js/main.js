@@ -20,23 +20,23 @@ $(function () {
         $('#tekst div').html(source[4].text);
     });
 
-    function zmena(i){
+    function zmena(i) {
         $('#news article h4').text(noviny[i].titulek);
         $('#news article small').text(noviny[i].datum);
         $('#news article p').text(noviny[i].text);
     };
     var a = 0;
     zmena(a);
-    $('#news .next').on('click', function(){
+    $('#news .next').on('click', function () {
         a < noviny.length - 1 ? a++ : a = 0;
         zmena(a);
     });
-    $('#news .prev').on('click', function(){
+    $('#news .prev').on('click', function () {
         a > 0 ? a-- : a = noviny.length - 1;
         zmena(a);
     });
 
-    $('#tekst div div path').on('click', function(){
+    $('#tekst div path').on('click', function () {
         var i;
         switch ($(this).attr('id')) {
             case "path4530":
@@ -75,7 +75,11 @@ $(function () {
             default:
                 i = 11;
         }
-        $('.headingthing').text(mb[i].nazev);
-        $('.smallthings').text(mb[i].ucel);
+        $('#modalX #mTitle').text(mb[i].nazev);
+        $('#modalX .modal-body #mText').text(mb[i].ucel);
+        $('#modalX .modal-body #mImage img').attr('src', mb[i].image);
+        $('#modalX .modal-body #mImage img').attr('alt', mb[i].nazev);
+        $('#modalX').modal("toggle");
+        console.log("Funguje");
     });
 });
