@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Kevin Mitnick",
+    "what": "Hackování počítačové společnosti, později také narušení národní bezpečnosti a průmyslová špionáž.",
+    "now": "Po 5 letech ve vězení se stal konzultantem a veřejnou osobou v otázce počítačové bezpečnosti. Také si založil vlastní společnost Mitnick Security Consulting, LLC."
+  },
+  {
+    "id": 2,
+    "name": "Jonathan James (c0mrade)",
+    "what": "Začal hackovat ve velmi nízkém věku, dokázal se dostat do firemních a státních systémů, později také do NASA.",
+    "now": "V roce 2007 se staly oběťmi útoků některé velké společnosti, avšak Jonathan účast na tomto zamítl. V roce 2008 spáchal sebevraždu jelikož si myslel že by byl obviněn ze zločinů které nespáchal."
+  },
+  {
+    "id": 3,
+    "name": "Albert Gonzalez",
+    "what": "Vedoucí skupiny ShadowCrew, která se specializovala na kradení a prodej čísel kreditních karet a také falšování pasů, rodných listů, a podobně, dokázal za 2 roky ukrást 170 miliónů kreditních karet a jejich čísel.",
+    "now": "Albert byl odsouzen na 20 let pobytu ve vězení, propuštěn bude roku 2025."
+  },
+  {
+    "id": 4,
+    "name": "Kevin Poulsen (Dark Dante)",
+    "what": "Kevin využil jeho znalostí telefonickýc sítí a jednou se dosadil na místo výherního volajícího aby dostal Porsche. Později se dostal do federálních systémů a ukradl tajné informace. Byl vyoátrán a zadržen v supermarketu a odsouzen na pobyt ve vězení.",
+    "now": "V roce 1995 byl propuštěn z vězení a stal se novinářem. Momentálně píše pro časopis Wired. V roce 2006 dokonce pomohl identifikovat 744 sexuálních násilníků na MySpace."
+  },
+  {
+    "id": 5,
+    "name": "Gary McKinnon (Solo)",
+    "what": "Od února 2001 po 13 následujících měsíců Gary se nelegálně dostával do 97 počítačů patřících Armádě USA a NASA. Tvrdil, že jen hledá informace o projektech na nekonečnou energii a UFO, avšak podle autorit smazat mnoho důležitých souborů a a přes 300 počítačů zničil.",
+    "now": "Do roku 2005 se úspěšně vyhýbal postihu, ale potom musel čelit vydání do USA. To však zamítla samotná Theresa May se slovy že je nemocný a bylo by to proti jeho právu."
+  },
+  {
+    "id": 6,
+    "name": "Robert Tappan Morris",
+    "what": "V roce 1988, když byl studentem na Cornellské univerzitě, vytvořil vůbec první počítačový červ. Tento červ pomalu zničil přibližně 6000 počítačů.",
+    "now": "V roce 1989 byl obviněn a odsouzen. Poté založil společnost Y Combinator a také se stal profesorem na MIT."
+  },
+  {
+    "id": 7,
+    "name": "Loyd Blankenship (The Mentor)",
+    "what": "Když byl v roce 1986 uvězněn, napsal knihu 'Mentor's last words'. Tato kniha byla počátkem velkého rozvoje hackování.",
+    "now": "V roce 1989 byl najat firmou Steve Jackson Games aby pracoval na hře GURPS Cyberpunk, avšak v roce 1990 mu federální pracovníci prohledali dům a zabavili knihu pravidel pro tuto hru. Loyd se později úplně vzdal hackování a momentálně pracuje pro firmu McAfee."
+  },
+  {
+    "id": 8,
+    "name": "Julian Assange (Mendax)",
+    "what": "Během 4 let se dostal do mnoha vládních, firemních a školních systémů, včetně Pentagonu, NASA, či Stanfordské univezity. Později založil stránku WikiLeaks a od roku 2010 po něm vládní pracovníci jdou.",
+    "now": "Momentálně je občanem Ekvádoru a žije na ekvádorské ambasádě v Londýně. Bojí se vydání do USA."
+  },
+  {
+    "id": 9,
+    "name": "Guccifer 2.0",
+    "what": "Dodnes se neví kdo to je, nebo jestli je to vůbec jedinec či skupina. Při prezidentských volbách 2016 v USA, síť demokratické strany byla hacknuta a mnoho informací bylo zveřejněno na WikiLeaks a dalších stránkách. Původně se myslelo, že Guccifer 2.0 je původem z Ruska avšak později Guccifer 2.0 zveřejnili, že jsou z Rumunska.",
+    "now": "Těsně před volbami zmizeli, avšak v roce 2017 se znovu objevili a sdělili veřejnosti, že žádné konekce na Rusko nemají."
+  },
+  {
+    "id": 10,
+    "name": "Anonymous",
+    "what": "Velká skupina lidí bez vedení a hyerarchie, každý může jednat ve jménu Anonymous. Od jejich objevení v roce 2003 zaútočili na několik velikých společností, např. Amazion či PayPal, a také mnoho vlád.",
+    "now": "Anonymous hackují doteď. V roce 2011 se od nich oddělily 2 malé skupiny hackerů zvané LulzSec a AntiSec."
+  }
+]
